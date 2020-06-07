@@ -36,4 +36,52 @@ for (var i = 15; count <= 25; count++) {
   }
 
 // Question 7
-var team = ["red" 10 true, "blue" 20 false]
+var dogs = ["albert", "rodger"]
+var dogs = [
+  {
+    name: "albert",
+    yearsOfAge: "5"},
+  {
+    name: "rodger",
+    yearsOfAge: "12"},
+  ];
+
+for (var i = 0;i < dogs.length; i+= 1)
+  
+  var dogs = {
+    name: "albert",
+    yearsOfAge: 5,
+    alive: true
+  }
+    
+  var dogs = {
+    name: "rodger",
+    yearsOfAge: 12,
+    alive: false
+  }
+  
+// Question 8
+  whatIDontLike(vegetables)
+{
+  console.log("I don't like" + vegetables);
+}
+whatIDontLike("carrots");
+
+// Question 9
+function subtraction(first, second) 
+{
+  var first = 3;
+  var second = 9;
+  var results = second - first;
+  console.log(results);
+}
+subtraction();
+
+// Question 10
+var emptyArray = [];
+function add(argument) {
+  emptyArray.push(argument);
+}
+add("value");
+
+console.log(emptyArray);
