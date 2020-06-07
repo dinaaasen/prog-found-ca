@@ -26,3 +26,14 @@ for(var i=0; i < cars.length; i++){
   }
   
 // Question 5
+for (var i = 15; count <= 25; count++) {
+    console.log(i);
+  }
+  
+ // Question 6
+  for (var i = 15; i === 20; i++) {
+      console.log(i)
+  }
+
+// Question 7
+var team = ["red" 10 true, "blue" 20 false]
